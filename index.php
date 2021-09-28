@@ -1,4 +1,6 @@
 <?php
+die("Oin! =)");
+
 $conMs = mssql_connect('198.50.152.2', 'sa', 'ico26ne0@');
 mssql_select_db('MuOnline', $conMs);
 $qr = mssql_query("SELECT TOP 100 c.Name,c.cLevel,m.MasterLevel,c.Class "
