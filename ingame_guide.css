@@ -1,21 +1,22 @@
 ﻿@charset "utf-8";
-html, body {font-size:12px;font-family:'돋움', dotum, 굴림;line-height:1.5;color:#fff;}
-html, body, form, input, legend, label, select, option, button, fieldset, textarea, div, p, pre, blockquote, img, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li {margin:0;padding:0;}
-img {vertical-align:top;}button {cursor:pointer;}ol, ul, dl, li {list-style:none;}fieldset, img {border:0;}input, select, button {vertical-align:middle;}
+body {margin:0;padding:0;}
+img {vertical-align:top;}
+button {cursor:pointer;}
+ol, ul, dl, li {list-style:none;}fieldset, img {border:0;}input, select, button {vertical-align:middle;}
 a {text-decoration:none;}a:hover {text-decoration:underline;}
-table {border-collapse:collapse;}table caption {position:absolute;left:-3000px;top:-3000px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
 
 .wrap_ingame {width:781px;height:480px;}
+
 .wrap_main {background:url('bg_main_wrp.jpg') no-repeat;}
+
 .wrap_main ul {width:465px;margin:0 auto;padding:57px 0 0 5px;}
 .wrap_main li {float:left;padding:0 4px 5px 0;}
-.wrp_tit {width:781px;height:60px;background:url('/mu/event/20150204_ingame_guide/img/bg_tit_wrp.jpg') no-repeat;}
+
+.wrp_tit {width:781px;height:60px;background:url('bg_tit_wrp.jpg') no-repeat;}
 .wrp_tit h1 {float:left;padding-left:21px;}
+
 .btn_list {float:right;padding:11px 15px 0 0;}
 .btn_list .btn {float:left;position:relative;padding-right:3px;}
-#menu_layer {position:absolute;left:-270px;top:38px;width:310px;height:254px;padding:15px 0 0 7px;background:url('/mu/event/20150204_ingame_guide/img/bg_menu_wrp.png') no-repeat;z-index:9999;}
-#menu_layer li {float:left;width:150px;height:24px;line-height:25px;text-align:center;overflow:hidden;}
-#menu_layer li a {color:#fff;text-decoration:none;}
 
 .wrp_contents {width:781px;height:420px;overflow-x:hidden;overflow-y:auto;}
 
