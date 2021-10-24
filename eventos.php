@@ -40,6 +40,7 @@
 			<li><a href="#"><div class="BasicOver">Blood Castle</div></a></li>
 			<li><a href="#"><div class="BasicOver">Devil Square</div></a></li>
 			<li><a href="#"><div class="BasicOver">Chaos Castle</div></a></li>
+			<li><a href="#"><div class="BasicOver">Illusion Temple</div></a></li>
 		</ul>
 	</div>
 </body>
